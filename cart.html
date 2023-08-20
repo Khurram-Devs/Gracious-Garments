@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRACIOUS GARMENTS</title>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link id="themeStylesheet" rel="stylesheet" href="styleDefault.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <img src="img/logo.png" alt="" id="logo" />
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#WishList?</h2>
+      <p>So happy to hear that you are wishing our products.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Images</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/f1.jpg" alt="" /></td>
+            <td>Funky Flower Shirt</td>
+            <td>$79</td>
+            <td><input type="number" value="1" /></td>
+            <td>$79</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/f2.jpg" alt="" /></td>
+            <td>Light Lily Shirt</td>
+            <td>$89</td>
+            <td><input type="number" value="1" /></td>
+            <td>$89</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="img/products/f3.jpg" alt="" /></td>
+            <td>Orange Petal Shirt</td>
+            <td>$62</td>
+            <td><input type="number" value="1" /></td>
+            <td>$62</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Coupon Code" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$ 335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 335</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletter</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="f-logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Aptech Learning, Board Office, Nazimabad,
+          Karachi
+        </p>
+        <p><strong>Phone:</strong> (+92) 332-003-0975</p>
+        <p><strong>Hours:</strong> 17:00 - 19:00, Mon - Wed - Fri</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="about.html">About Us</a>
+        <a href="#">Delevery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="cart.html">View Cart</a>
+        <a href="cart.html">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secure Payment Gateway</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>Registered - KHURRAM IQBAL - 2023</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
