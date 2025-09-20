@@ -24,7 +24,7 @@ Gracious-Garments is an e-commerce website built using HTML, CSS, and JavaScript
 ### Quick Start
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Gracious-Garments.git
+   git clone https://github.com/Khurram-Devs/Gracious-Garments.git
    ```
 2. Open the `index.html` file in your web browser to view the website.
 
